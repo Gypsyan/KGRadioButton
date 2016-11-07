@@ -461,7 +461,7 @@
 				INFOPLIST_FILE = KGRadioButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BluemixIndia.KGRadioButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myworld.KGRadioButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -482,7 +482,7 @@
 				INFOPLIST_FILE = KGRadioButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BluemixIndia.KGRadioButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myworld.KGRadioButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -497,7 +497,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BluemixIndia.demoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myworld.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -511,7 +511,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BluemixIndia.demoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myworld.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -562,6 +562,7 @@
 				14FD038B1DD08DD100DE8C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14FD039F1DD08DE000DE8C10 /* Build configuration list for PBXNativeTarget "demoApp" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +571,7 @@
 				14FD03A11DD08DE000DE8C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14FD03AE1DD08DED00DE8C10 /* Build configuration list for PBXNativeTarget "KGRadioButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +580,7 @@
 				14FD03B01DD08DED00DE8C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
