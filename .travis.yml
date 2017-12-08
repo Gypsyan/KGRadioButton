@@ -12,7 +12,6 @@ install:
   - gem install cocoapods
 
 script:
-  - pod update
   - pod lib lint --allow-warnings
   - carthage update
   - xcodebuild clean build -workspace KGRadioButton.xcworkspace -scheme KGRadioButton CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO
