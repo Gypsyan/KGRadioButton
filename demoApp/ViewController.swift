@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         button.addTarget(self, action: #selector(manualAction(sender:)), for: .touchUpInside)
+        button.innerCircleCircleColor = UIColor.red
         self.view.addSubview(button)
         label2.text = "Not Selected"
         self.view.addSubview(label2)
