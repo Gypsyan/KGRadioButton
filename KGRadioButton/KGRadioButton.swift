@@ -115,7 +115,7 @@ public class KGRadioButton: UIButton {
     // MARK: Custom
     private func setFillState() {
         if self.isSelected {
-            innerCircleLayer.fillColor = outerCircleColor.cgColor
+            innerCircleLayer.fillColor = innerCircleCircleColor.cgColor
         } else {
             innerCircleLayer.fillColor = UIColor.clear.cgColor
         }
