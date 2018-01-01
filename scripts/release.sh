@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script is used by Travis-CI to automatically release new versions of BMSPush.
+# This script is used by Travis-CI to automatically release new versions of KGRadioButton.
 # First, we check if the version specified in the .podspec does not already exist as a git tag.
 # If the version does not exist yet, we add a git tag for this new version and publish to Cocoapods.
 
